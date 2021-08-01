@@ -6,33 +6,21 @@ description: >
   Here's where your user finds out if your project is for them.
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+## What is it? 👀
 
+Hidra is a sequential monitoring tool that allows you to monitor external services in a simple way. You can also deploy Hidra in different regions, node tags, and you can have all the metrics centralised in one place. You will be able to export these metrics in Prometheus, and you will be able to visualise them from a dashboard in a simple way.
 
-The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide). 
-
-Try answering these questions for your user in this page:
-
-## What is it?
-
-Introduce your project, including what it does or lets you do, why you would use it, and its primary goal (and how it achieves it). This should be similar to your README description, though you can go into a little more detail here if you want.
-
-## Why do I want it?
+## Why do I want it? 👨👩
 
 Help your user know if your project will help them. Useful information can include: 
 
-* **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
-
-* **What is it not good for?**: For example, point out situations that might intuitively seem suited for your project, but aren't for some reason. Also mention known limitations, scaling issues, or anything else that might let your users know if the project is not for them.
-
-* **What is it *not yet* good for?**: Highlight any useful features that are coming soon.
+* **Do you need to launch tests on your site after a deployment is finished?**: With Hidra you can create test pipelines to run whenever you want. All tests are sequential, so you can check step by step that everything works as expected.
+* **Do you want to have 24x7 metrics on the status of your site?**: Easy, Hidra you can deploy agents wherever you want and you can tag them. Need to monitor a certain service from the US? No problem, with Hidra you can. Need to run functionality tests, or check the loading speed of a site? Hidra is your tool.
+* **Do you need to create sequential performance tests of a service that run constantly?**: Hidra is your tool.
+* **Need to check a site's certificates?**: Hidra is your tool.
+* **Do you need to check HTTP response, that a response contains a string, or a redirect?**: Hidra is your tool.
 
 ## Where should I go next?
 
-Give your users next steps from the Overview. For example:
-
-* [Getting Started](/docs/getting-started/): Get started with $project
-* [Examples](/docs/examples/): Check out some example code!
+* [Getting Started](/docs/getting-started/): Get started with Hidra
 

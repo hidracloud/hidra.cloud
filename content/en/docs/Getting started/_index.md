@@ -6,30 +6,20 @@ description: >
   What does your user need to know to try your project?
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+## Installation 💾
+Hidra can be downloaded as binaries for any operating system, or using the Docker image. In the official Github repository you can see all available releases. To download the latest version available, you can access here: https://github.com/hidracloud/hidra/releases/latest
 
-Information in this section helps your user try your project themselves.
+For example, if you want to download version 1.0.0 for Linux (64 bits):
+1. `wget https://github.com/hidracloud/hidra/releases/download/v1.0.0/hidra-1.0.0-linux-amd64.tar.gz`
+2. `tar -xvf hidra-1.0.0-linux-amd64.tar.gz`
+3. `sudo cp hidra-*/hidra /usr/local/bin/hidra`
 
-* What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
+In the other hand, if you want to try Docker image just use the following image: `docker pull ghcr.io/hidracloud/hidra:v1.0.0`
 
-* Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.
+## Try it out! 🧸
 
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
+Hidra contains a test mode, which allows you to run test pipelines directly. In the Github repository you can find examples of the different scenarios, if you want to test for example Hidra with the HTTP example, you can do the following:
+1. Download example scenario: `wget https://raw.githubusercontent.com/hidracloud/hidra/main/examples/http_test.yaml`
+2. Run: `hidra -test -file http_test.yaml`
 
-## Prerequisites
-
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
-
-## Installation
-
-Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
-
-## Setup
-
-Is there any initial setup users need to do after installation to try your project?
-
-## Try it out!
-
-Can your users test their installation, for example by running a command or deploying a Hello World example?
+Edit the http_test.yaml file to your liking and start getting familiar! 🧑‍🍳
