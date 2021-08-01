@@ -1,5 +1,5 @@
 [build]
-base = "josecarlosme-blog/"
+base = "."
 publish = "public"
 
 command = "git submodule update --init --recursive && hugo --gc --minify"
