@@ -10,13 +10,11 @@ If you want to monitor your services from different locations, constantly and wa
 Hidra API will allow you to store pipelines in a database, visualise metrics, connect agents, tag agents and launch tests from as many places as you want.
 
 # Getting started
-At the moment, Hidra only supports SQLite databases, support for other databases will come in the next release, currently, Hidra-API and Hidra-Agent are proof of concepts.
-
 To start working with the Hidra API, simply run hidra with the `-api` argument, i.e:
 
     hidra -api
 
-When you start Hidra for the first time, you will receive a root password. Store it, you will need it to perform operations.
+When you start Hidra for the first time, you will receive a root password. Store it, you will need it to perform operations. If you want to use an external database, please read [arguments](/docs/hidracomponents/arguments/#arguments-in-api-mode)
 
 # API Methods
 
