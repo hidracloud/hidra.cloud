@@ -1,6 +1,6 @@
 ---
 title: "API 🌐"
-linkTitle: "API"
+linkTitle: "API 🌐"
 date: 2021-08-01
 weight: 2
 

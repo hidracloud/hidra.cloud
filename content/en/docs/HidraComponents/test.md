@@ -1,6 +1,6 @@
 ---
 title: "Test 🧪"
-linkTitle: "Test"
+linkTitle: "Test 🧪"
 date: 2021-08-01
 weight: 1
 ---
