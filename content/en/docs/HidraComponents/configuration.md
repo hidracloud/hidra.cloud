@@ -11,33 +11,18 @@ You can combine these flags as you like, for example, if you call hidra with the
 
 | Argument | Description    | Value type | Default |
 |:----------|:-------------|:------------| -------- |
-| api      | Activate API mode in Hidra. | bool | false |
-| agent    | Activate agent mode in Hidra. | bool | false |
+| exporter      | Activate exporter mode in Hidra. | bool | false |
 | test     | Activate test mode in Hidra. | bool | false |
-| metric     | Activate metric mode in Hidra. | bool | false |
 
 ## Arguments in test mode
 | Argument | Description    | Value type | Default |
 |:----------|:-------------|:------------|---------|
 | file      | Yaml file that will run Hidra in test mode. | string | |
 
-## Arguments in API mode
-| Argument | Description   | Value type | Default |
-|:----------|:-------------|:------------|--------|
-| listen_addr  | Listen address for API endpoint. | string | :8080 |
-| db_type  | Specifies the type of database to be used by Hidra. Allowed values are: *sqlite, mysql, postgresql*. | string | sqlite |
-| db_path  | Only required if you're using sqlite. Specify sqlite db file. | string | test.db |
-| db_uri  | Specifies the connection URL of the database in DSN format. | string |  |
-
-## Arguments in metric mode
-| Argument | Description   | Value type | Default |
-|:----------|:-------------|:------------|--------|
-| metric_listen_addr  | Listen address for Metric endpoint. | string | :9096 |
-| metric_pull_seconds  | How long should it take between each Prometheus metrics update? | int | 1 |
-
-## Arguments in agent mode
-| Argument | Description   | Value type | Default |
-|:----------|:-------------|:------------|--------|
-| agent_secret  | Token for agent authentication | string |  |
-| api_url  | URL of your API | string | http://localhost:8080/api |
-| data_dir  | Path where agent will store data | string | /var/tmp/agent-data |
+## Arguments in exporter mode
+| Argument | Description    | Value type | Default |
+|:----------|:-------------|:------------|---------|
+| maxExecutor      | How many executors will run in parallel | int | |
+| port      | Port to expose metrics. | int | |
+| buckets     | Buckets for histogram. | int | |
+| conf | Path to all samples. | string | |

@@ -20,3 +20,7 @@ weight: 1
 | Param | Description    |
 |:----------|:-------------|
 | for      | Check that it is valid for a period of time. Valid values could be: 15m, 1h, 1d... |
+
+## dumpMetrics
+| Param | Description    |
+|:----------|:-------------|
