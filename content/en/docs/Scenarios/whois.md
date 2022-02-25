@@ -1,6 +1,6 @@
 ---
-title: "TLS"
-linkTitle: "TLS"
+title: "Whois"
+linkTitle: "Whois"
 date: 2021-08-01
 weight: 1
 ---
