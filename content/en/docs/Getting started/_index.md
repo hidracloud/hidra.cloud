@@ -9,8 +9,8 @@ description: >
 ## Installation 💾
 Hidra can be downloaded as binaries for any operating system, or using the Docker image. In the official Github repository you can see all available releases. To download the latest version available, you can access here: https://github.com/hidracloud/hidra/releases/latest
 
-For example, if you want to download version 1.0.0 for Linux (64 bits):
-1. `wget https://github.com/hidracloud/hidra/releases/download/v1.0.0/hidra-1.0.0-linux-amd64.tar.gz`
+For example, if you want to download version 2.1.1 for Linux (64 bits):
+1. `wget https://github.com/hidracloud/hidra/releases/download/v2.1.1/hidra-v2.1.1-linux-amd64.tar.gz`
 2. `tar -xvf hidra-1.0.0-linux-amd64.tar.gz`
 3. `sudo cp hidra-*/hidra /usr/local/bin/hidra`
 

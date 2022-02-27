@@ -4,6 +4,7 @@ linkTitle: "Whois"
 date: 2021-08-01
 weight: 1
 ---
+Introduced in v2.1.0
 # Steps
 
 ## whoisFrom
