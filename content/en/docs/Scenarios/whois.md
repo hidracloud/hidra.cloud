@@ -21,3 +21,22 @@ Introduced in v2.1.0
 ## dumpMetrics
 | Param | Description    |
 |:----------|:-------------|
+
+# Example
+```yaml
+name: whois_basic_example
+description: Test that google.com dns are ok
+scrapeInterval: 1s
+timeout: 1s
+tags:
+  sla: dev
+scenario:
+  kind: whois
+  steps:
+    - type: whoisFrom
+      params:
+        domain: google.com
+    - type: shouldBeValidFor
+      params:
+        period: 1d
+```

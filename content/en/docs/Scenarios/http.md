@@ -26,3 +26,33 @@ weight: 1
 | Param | Description    |
 |:----------|:-------------|
 | url      | Which is the new location?  |
+
+# Example
+```yaml
+name: http_basic_example
+description: Test that example.com return HTTP 200
+scrapeInterval: 1s
+timeout: 1s
+tags:
+  sla: dev
+scenario:
+  kind: http
+  steps:
+    - type: addHTTPHeader
+      params:
+        key: Hidra-Token
+        value: asd
+    - type: request
+      params:
+        url: "https://example.org/?{{ .Now.Unix }}"
+    - type: statusCodeShouldBe
+      params:
+        statusCode: "200"
+    - type: bodyShouldContain
+      params:
+        search: example
+    - type: bodyShouldContain
+      params:
+        search: aebfou3rfbro3b3oon
+      negate: true
+```

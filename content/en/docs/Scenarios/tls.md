@@ -24,3 +24,24 @@ weight: 1
 ## dumpMetrics
 | Param | Description    |
 |:----------|:-------------|
+
+# Example
+
+```yaml
+name: tls_basic_example
+description: Test that google.com has a TLS certificate
+scrapeInterval: 1m
+scenario:
+  kind: tls
+  steps:
+    - type: connectTo
+      params:
+        to: google.com:443
+    - type: dnsShouldBePresent
+      params:
+        dns: google.com
+    - type: shouldBeValidFor
+      params:
+        for: 7d
+    - type: dumpMetrics
+```

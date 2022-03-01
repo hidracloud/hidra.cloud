@@ -34,3 +34,29 @@ weight: 1
 | hop_%d_elapsed      | time to completed hop |
 | hop_%d_status     | hop status |
 | hops      | number of hops |
+
+# Example
+```yaml
+name: icmp_test_ping
+description: Test ping to 8.8.8.8
+scrapeInterval: 1m
+scenario:
+  kind: icmp
+  steps:
+    - type: ping
+      params:
+        hostname: 8.8.8.8
+        times: 3
+```
+
+```yaml
+name: icmp_test_ping
+description: Test traceroute to 8.8.8.8
+scrapeInterval: 1m
+scenario:
+  kind: icmp
+  steps:
+    - type: traceroute
+      params:
+        hostname: 8.8.8.8
+```
