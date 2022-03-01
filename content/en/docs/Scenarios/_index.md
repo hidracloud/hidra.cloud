@@ -3,6 +3,7 @@ title: "Scenarios"
 linkTitle: "Scenarios"
 date: 2021-08-01
 weight: 5
+description: "Scenarios are a way to test your infrastructure. They are composed of steps that are executed in a specific order. They can be used to test your infrastructure, to test your application, to generate metrics of your uptime, to loadtest your application, or to test your infrastructure and your application. "
 ---
 Hidra scenarios allow you to generate tests of different types in a very easy way, all tests are defined by simple tests using YAML. In this section, you will find the different types of tests you can do with Hidra.
 

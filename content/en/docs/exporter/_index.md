@@ -3,6 +3,9 @@ title: "Exporter"
 linkTitle: "Exporter"
 date: 2021-08-01
 weight: 6
+description: |
+  The exporter is a tool that can be used to export the results of a
+  Scenario to Prometheus.
 ---
 If you want to run Hidra in exporter mode, you can use the following command:
 
