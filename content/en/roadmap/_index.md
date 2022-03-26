@@ -1,5 +1,6 @@
 
 ---
+
 title: "🚶‍♂️ Roadmap"
 linkTitle: "🚶‍♂️ Roadmap"
 weight: 15
@@ -24,9 +25,6 @@ menu:
     </li>
     <li>
       Add example grafana dashboards
-    </li>
-    <li>
-      Generate a *.deb package for every release
     </li>
     <li>
       Add an example of how to use hidra for functional tests
